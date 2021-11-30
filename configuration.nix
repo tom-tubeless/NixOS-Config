@@ -190,7 +190,7 @@
     autoUpgrade = {
       enable = true;
       allowReboot = true;
-      flake = "github:mudrii/systst";
+      flake = "github:tom-tubeless/NixOS-Config";
       flags = [
         "--recreate-lock-file"
         "--no-write-lock-file"

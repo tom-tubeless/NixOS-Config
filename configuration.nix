@@ -133,6 +133,8 @@
       curl
       bind
       mkpasswd
+      direnv
+      nix-direnv
     ];
 
     shellAliases = {

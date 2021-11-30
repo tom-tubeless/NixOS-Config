@@ -83,7 +83,7 @@ nix-shell -p git nixFlakes
 
 git clone https://github.com/tom-tubeless/NixOS-Config.git /mnt/etc/nixos
 
-nixos-install --root /mnt --flake /mnt/etc/nixos#nixst
+nixos-install --root /mnt --flake /mnt/etc/nixos#nixtst
 
 reboot
 

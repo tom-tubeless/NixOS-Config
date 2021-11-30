@@ -81,7 +81,7 @@ swapon /dev/vg/swap
 ```sh
 nix-shell -p git nixFlakes
 
-git clone https://github.com/tom-tubeless/systst.git /mnt/etc/nixos
+git clone https://github.com/tom-tubeless/NixOS-Config.git /mnt/etc/nixos
 
 nixos-install --root /mnt --flake /mnt/etc/nixos#nixtst
 

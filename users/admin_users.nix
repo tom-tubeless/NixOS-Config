@@ -4,7 +4,7 @@
 
   users = {
     mutableUsers = false;
-    users.lgo = {
+    users.godmin = {
       isNormalUser = true;
       extraGroups = [ "wheel" "docker" ];
       # mkpasswd -m sha-512 password; or openssl passwd -6
